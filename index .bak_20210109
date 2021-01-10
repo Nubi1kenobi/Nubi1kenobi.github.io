@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> 
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bryan C. Stauch - WDD 320-13 Portal</title>
@@ -42,9 +42,8 @@
       <footer>
         <div class="bottom">
           &copy; <span id="currentyear"></span> | Bryan C. Stauch | WDD 230-13 |
-          BYU-Idaho Online Learning, Winter 2021 | Texas | Last Updated: <span
-            id="lastupdated"
-          ></span>
+          BYU-Idaho Online Learning, Winter 2021 | Texas | Last Updated:
+          <span id="lastupdated"></span>
         </div>
       </footer>
       <script src="js/currentyear.js"></script>
