@@ -1,13 +1,12 @@
 html {
-    background-color: saddlebrown;
+  background-color: saddlebrown;
 }
 
 #content {
   max-width: 960px;
   margin: 0 auto;
   background-color: cornsilk;
-  color:saddlebrown;
-
+  color: saddlebrown;
 }
 
 header {
@@ -23,14 +22,14 @@ footer {
   font-size: 25px;
   font-weight: bold;
   padding-left: 20px;
-  padding-right:25px;
+  padding-right: 25px;
   padding-top: 10px;
   text-align: start;
 }
 
 footer .bottom {
   font-size: 14px;
-  height: 35px; 
+  height: 35px;
 }
 
 .myphoto img {
@@ -67,18 +66,19 @@ footer .bottom {
 }
 
 .subtitle2 {
-    grid-column: 1 / 4;
-    grid-row: 1;
-    align-self: center;
-    justify-self: start;
-    padding-top: 15px;
-    padding-left: 275px;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  align-self: center;
+  justify-self: start;
+  padding-top: 15px;
+  padding-left: 275px;
 }
-    .mylist1 {
-    grid-row: 2;
-    grid-column: 1;
-    padding-top: 10px;
-  }
+
+.mylist1 {
+  grid-row: 2;
+  grid-column: 1;
+  padding-top: 10px;
+}
 
 .mylist2 {
   grid-row: 2;
