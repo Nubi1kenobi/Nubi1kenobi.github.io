@@ -87,12 +87,3 @@ footer .bottom {
   grid-column: 2;
   padding-top: 10px;
 }
-
-@media screen and (max-width: 550px) { 
-    /* beginning of media query */
-        .home-grid {
-          display: block;
-    }
-    
-      /* end of media query */ 
-    } 
