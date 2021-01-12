@@ -9,12 +9,6 @@ html {
   color: saddlebrown;
 }
 
-header {
-  height: 75px;
-  height: 50px;
-  width: 710px;
-}
-
 header,
 footer {
   background-color: goldenrod;
@@ -25,6 +19,13 @@ footer {
   padding-right: 25px;
   padding-top: 10px;
   text-align: start;
+}
+
+header {
+  height: 50px;
+  width: 710px;
+  font-size: 45px;
+  font-family: 'Monofett', cursive, sans-serif;
 }
 
 footer .bottom {
