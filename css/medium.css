@@ -1,3 +1,40 @@
 @media only screen and (min-width: 32.5em) {
-put rules inside brackets, none outside
+      header,
+      footer {
+        height: auto;
+        border-radius: 25px 25px 25px 25px;
+        padding: 1.25rem;
+        text-align: start;
+      }
+      
+      h1 {
+        font-size: 3.0rem;
+      }
+      
+      h2 { 
+        font-size: 2.5rem;
+        padding-left: 2rem;
+      }
+      
+      header img {
+        width: 200px;
+        height: auto;  
+        float: right;
+        box-shadow: 2px 2px 4px 2px saddlebrown;
+        border-radius: 25px 25px 25px 25px;
+        padding-left: 0rem;
+      }
+      
+      main {
+        font-size: 1rem;
+        grid-gap: 25px;
+        padding-bottom: 2rem;
+      }
+      
+      .mylist-left {
+        padding-left: 5rem;
+        
+        
+      }
+      
 }
