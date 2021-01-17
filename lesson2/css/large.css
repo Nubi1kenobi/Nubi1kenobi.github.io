@@ -3,7 +3,6 @@
         max-width: 1200px;
         padding-left: 1rem;
         padding-right: 1rem;
-        background: red;
     }
     
     header {
@@ -62,6 +61,7 @@
     section {
         background-color: silver;
         border-radius: 25px 25px 25px 25px;
+        padding-left: ;
     }
     
     section p {
@@ -72,7 +72,7 @@
     }
     
     section a {
-        font-size: 1.25rem;
+        font-size: 1.25rem; 
     }
     
     section img {
@@ -99,4 +99,8 @@
 
     .right-column h4 {
         padding-left: 7em;
-}
+    }
+
+    .right-column a {
+    padding-left: 4rem;
+    }

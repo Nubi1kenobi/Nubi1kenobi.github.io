@@ -1,5 +1,5 @@
 html {
-max-width: 520px;
+min-width: 250px;
 
     background: #fcfff4;
 }
@@ -11,9 +11,10 @@ header {
 }
 
 h1, h2 {
-    padding-left: 1em;
     font-family: 'Alegreya', serif;
     color: #cedce7; 
+    padding-top: 0.5rem;
+    text-align: center;
 }
 
 h1 {
@@ -26,7 +27,7 @@ h2 {
     color: gold;
     font-size: 1.20rem;
     padding-bottom: 1rem;
-    padding-left: 4em;
+    padding-left: 1em;
 }
 
 h3 {
@@ -50,14 +51,14 @@ h4 {
 
 h3, h4, p {
     font-family: 'Alegreya Sans', sans-serif;
-    text-align: start;
-    padding-left: 6em;
+    text-align: center;
+
 }
 
 main {
     display: grid;
     font-size: 1rem;
-    grid-template-columns: 400px;
+    grid-template-columns: 520px;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 25px;
     
@@ -74,12 +75,13 @@ section p {
 }
 
 section a {
-    padding-left: 3rem;
+    padding-left: 9rem;
     font-size: 1.25rem;
 }
 
 section img {
     width: 300px;
     height: auto;
+    padding-left: 6em;
 
 }

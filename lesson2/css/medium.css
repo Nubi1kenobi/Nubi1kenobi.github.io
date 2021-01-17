@@ -1,8 +1,6 @@
 @media only screen and (min-width: 32.5em) {
     html {
-        max-width: 1024px;
         padding-left: 1rem;
-        background: purple;
     }
     
     header {
@@ -12,68 +10,95 @@
     
     h1, h2 {
         text-align: center;
+        
     }
     
     h1 {
-        font-size: 1.5rem;
+        font-size: 3rem;
         padding-top: 0.5rem; 
         
     }
     
     h2 {
-        font-size: 1.25rem;
+        font-size: 2.25em;
         padding-bottom: 1rem;
+        margin-left: -4em;
     }
     
     h3 {
-        font-size: 1.75rem;
+        font-size: 2rem;
         border-radius: 25px 25px 0px 0px;
-        height: 2.5em;
+        height: 1.5em;
         margin-top: -0.5rem;
         padding-top: 2rem;
+        padding-left: 6rem;
     }
     
     h4 {
         font-size: 1.25rem;
         border-radius: 0px 0px 25px 25px;
-        margin-top: -1.75rem;
-        height:1.5em;
+        margin-top: -2rem;
+        height: 1.5em;
         padding-top: 0.5rem;
     }
     
     h3, h4, p {
         font-family: 'Alegreya Sans', sans-serif;
         text-align: start;
-        padding-right: 1em;
     }
     
     main {
         display: grid;
         font-size: 1rem;
-        grid-template-columns: 400px 400px; 
+        grid-template-columns: 350px 350px;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 10px;        
+        grid-gap: 50px;
+        padding-left: 10px;
     }
     
     section {
         background-color: silver;
         border-radius: 25px 25px 25px 25px;
-        margin-right: auto;
+        padding-left: ;
     }
     
     section p {
         padding: 0.5rem;
         font-weight: 600;
+        font-size: 1rem;
+        padding-left: 2em;
     }
     
     section a {
-        padding-left: 6rem;
-        font-size: 1.25rem;
+        font-size: 1.25rem; 
     }
     
     section img {
         width: 300px;
         height: auto;
-        padding-left: 3rem; 
+        padding-left: 1.75rem; 
+        
     }
-}
+
+    .middle-column h3 {
+        padding-left: 3.75em;
+
+    }
+
+    .middle-column h4 {
+        padding-left: 6.25em;
+
+    }
+
+    .left-column h4 {
+        padding-left: 6.5em;
+
+    }
+
+    .right-column h4 {
+        padding-left: 7em;
+    }
+
+    .right-column a {
+    padding-left: 4rem;
+    }
