@@ -1,3 +1,102 @@
-@media only screen and (min-width: 32.5em) {
-    test
+@media only screen and (min-width: 65em) {
+    html {
+        max-width: 1200px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background: red;
+    }
+    
+    header {
+        border-radius: 25px 25px 25px 25px;
+        
+    }
+    
+    h1, h2 {
+        text-align: center;
+        
+    }
+    
+    h1 {
+        font-size: 3rem;
+        padding-top: 0.5rem; 
+        
+    }
+    
+    h2 {
+        font-size: 2.25em;
+        padding-bottom: 1rem;
+        margin-left: -4em;
+    }
+    
+    h3 {
+        font-size: 2rem;
+        border-radius: 25px 25px 0px 0px;
+        height: 1.5em;
+        margin-top: -0.5rem;
+        padding-top: 2rem;
+        padding-left: 6rem;
+    }
+    
+    h4 {
+        font-size: 1.25rem;
+        border-radius: 0px 0px 25px 25px;
+        margin-top: -2rem;
+        height: 1.5em;
+        padding-top: 0.5rem;
+    }
+    
+    h3, h4, p {
+        font-family: 'Alegreya Sans', sans-serif;
+        text-align: start;
+    }
+    
+    main {
+        display: grid;
+        font-size: 1rem;
+        grid-template-columns: 350px 350px 350px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 50px;
+        padding-left: 10px;
+    }
+    
+    section {
+        background-color: silver;
+        border-radius: 25px 25px 25px 25px;
+    }
+    
+    section p {
+        padding: 0.5rem;
+        font-weight: 600;
+        font-size: 1rem;
+        padding-left: 2em;
+    }
+    
+    section a {
+        font-size: 1.25rem;
+    }
+    
+    section img {
+        width: 300px;
+        height: auto;
+        padding-left: 1.75rem; 
+        
+    }
+
+    .middle-column h3 {
+        padding-left: 3.75em;
+
+    }
+
+    .middle-column h4 {
+        padding-left: 6.25em;
+
+    }
+
+    .left-column h4 {
+        padding-left: 6.5em;
+
+    }
+
+    .right-column h4 {
+        padding-left: 7em;
 }
