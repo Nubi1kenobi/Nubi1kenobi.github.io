@@ -1,3 +1,11 @@
+:root {
+  --primary: #d8bc9a;
+  --secondary: #3b768f;
+  --accent1: #8ee3ef;
+  --accent2: rgb(230, 240, 225);
+  --accent3: black;
+}
+
 @media only screen and (min-width: 32.5em) {
   nav ul {
     display: grid;
@@ -36,8 +44,8 @@
 
   header h1 {
     text-align: start;
-	padding-left: 6em;
-	padding-bottom: 0.5em;
+    padding-left: 6em;
+    padding-bottom: 0.5em;
   }
 
   h1 {
@@ -87,7 +95,7 @@
   }
 
   footer {
-    color: var(--accent2);
+    color: var(--accent3);
     display: block;
     padding-top: 0.45em;
     padding-right: 2em;

@@ -1,3 +1,10 @@
+:root {
+  --primary: #d8bc9a;
+  --secondary: #3b768f;
+  --accent1: #8ee3ef;
+  --accent2: rgb(230, 240, 225);
+  --accent3: black;
+}
 @media only screen and (min-width: 60em) {
   nav a {
     font-size: 1.1rem;
@@ -79,16 +86,5 @@
     height: 350px;
     padding: 10px;
     border: var(--accent3);
-  }
-
-  footer {
-    color: var(--accent2);
-    display: block;
-    padding-top: 0.45em;
-    padding-right: 2em;
-    text-align-last: center;
-    border-radius: 25px 25px 25px 25px;
-    height: 1.75rem;
-    text-align: start;
   }
 }
