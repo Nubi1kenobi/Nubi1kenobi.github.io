@@ -128,7 +128,7 @@ nav ul.hide {
   }
   body {
     border: 1px solid black;
-    border-radius: 25px 25px 25px 25px;
+    */ border-radius: 25px 25px 25px 25px;*/
   }
   h3 {
     margin: 0 auto;
@@ -137,7 +137,7 @@ nav ul.hide {
     article {
       display: grid;   
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr 185px;
+      grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr 150px;
     }
     article h2 {
       color: #ff3232;
@@ -151,7 +151,7 @@ nav ul.hide {
     article section.weathersummary {
       grid-column: 1 / 7;
       grid-row: 2;
-      margin-top: -2.5rem;
+      margin-top: -1.5rem;
       margin-left: 4rem;
       margin-right: 4rem;
     }
@@ -159,7 +159,8 @@ nav ul.hide {
       grid-column: 1 / 7;
       grid-row: 3;
       margin-left: 4rem;
-      margin-right: 4rem;      
+      margin-right: 4rem;
+      padding-bottom: 1rem;      
     }
     article section.article {
       background-color: blueviolet;
@@ -235,26 +236,33 @@ nav ul.hide {
       /***--------------- .article END ----------------- */
       /***--------------- .contact BEGIN ----------------- */
             article section.contact img {
-              width: 375px;
+              
+           /*   width: 375px;
               height: 175px;
               float: left;
               padding-left: 2rem;
-              padding: 1.5rem;;
+              padding: 1.5rem; */
             }
             article section.contact h3 {
               text-align: center;
-              margin-left: 10rem;
             }
             article section.contact ul li {
               list-style-type: none;
+              text-align: center;
             }
             article section.contact ul li a{
                 color: violet;
                 text-decoration: none;
             }
             article section.contact ul li a img {
-                  width: 50px;
+              
+             
                   
+            }
+            .socialmedialinks {
+              text-align: center;
+              
+              
             }
       /***--------------- .contact END ----------------- */ 
 /*** article.children.grandchildren END ***/
@@ -264,8 +272,6 @@ footer {
   padding-left: 4rem;
   background-color: black;
   border-radius: 0px 0px 25px 25px;
-}
-.socialmedialinks {
 }
 /* FOOTER - display grid END */
 /*****---- Clearfix: Force and Element not to collapse ----*****/
