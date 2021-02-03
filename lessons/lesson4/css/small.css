@@ -137,7 +137,7 @@ nav ul.hide {
     article {
       display: grid;   
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr 150px;
+      grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr 200px;
     }
     article h2 {
       color: #ff3232;
@@ -243,27 +243,73 @@ nav ul.hide {
               padding-left: 2rem;
               padding: 1.5rem; */
             }
-            article section.contact h3 {
+
+            .contactcard {
+              margin-left: 35rem;
+              margin-top: 1.15rem;
+              border: 1px solid black;
+              width: 250px;
+              height: 150px;
+            }
+
+            .contactcard h3 {
               text-align: center;
+            }
+            
+            .contactcard ul li {
+              list-style-type: none;
+              text-align: left;
+              margin-left: 1.5rem;
+            }
+
+            .contactcard ul li a {
+              color: violet;
+              text-decoration: none;
+            }
+            .contact img {
+              width: 250px;
+              height: 150px;
+            }
+            .contactcard img {
+              height: 35px;
+              width: 35px;
+              margin-left: 1.25rem;
+              margin-right: 1.25rem;
+            }
+
+
+            
+
+            /*article section.contact h3 {
+              text-align: center;
+              margin-left: 5rem;
+              padding-top: 0.5rem;
+              padding-bottom: 0.25rem;
             }
             article section.contact ul li {
               list-style-type: none;
-              text-align: center;
+              text-align: left;              
+            }
+            article section.contact ul {
+              margin: -0.1rem;
+              margin-left: 27rem;
             }
             article section.contact ul li a{
-                color: violet;
-                text-decoration: none;
-            }
-            article section.contact ul li a img {
-              
-             
-                  
+              color: violet;
+              text-decoration: none;
             }
             .socialmedialinks {
-              text-align: center;
-              
-              
+              text-align: right;
+              margin-right: 25rem;
+              padding-top: 0.25rem;;
             }
+            .socialmedialinks a {
+              margin-left: 0.25rem ;
+              margin-right: 0.25rem;
+                            
+            }
+*/
+
       /***--------------- .contact END ----------------- */ 
 /*** article.children.grandchildren END ***/
 /**** FOOTER - display grid BEGIN ****/
