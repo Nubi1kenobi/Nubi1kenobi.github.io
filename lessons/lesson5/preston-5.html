@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preston Home Page</title>
     <link rel="shortcut icon" href="favicon.ico">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+  />
     <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/large.css" />
 </head>
 
 <body>
     <header>
         <img src="images/iconfinder_drugs_injection-35px.png" alt="icon - injection">
         <h1>My Weather Vein</h1>
-        <h2>Come Get Your Daily Weather Injection</h2>
+        <h2>Your Daily Weather Injection</h2>
     </header>
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776</button>
@@ -29,8 +34,8 @@
     <main>
         <article>
             <h2>Preston Idaho</h2>
-            <div class="herodiv">
-                <div class="heroimage">Hero Image Placeholder</div>
+            <div class="heroimagewrapper">
+                <div class="heroimage">Hero Image</div>
                 <section class="weathersummaryoverlay">
                     <h3>Weather Summary</h3>
                     <p>Label: Value</p>
@@ -39,19 +44,20 @@
                     <p>Label: Value</p>
                 </section>
             </div>
-            <section class="forecast">
+            <div  class="dailyforecastwrapper">
                 <h3>Five Day Forecast</h3>
-                <div class="forecastimagegroup">
-                <img class="forecastimages" src="images/iconfinder_drugs_injection-35px.png" alt="filler image">
-                <img class="forecastimages" src="images/iconfinder_drugs_injection-35px.png" alt="filler image">
-                <img class="forecastimages"src="images/iconfinder_drugs_injection-35px.png" alt="filler image">
-                <img class="forecastimages"src="images/iconfinder_drugs_injection-35px.png" alt="filler image">
-                <img class="forecastimages"src="images/iconfinder_drugs_injection-35px.png" alt="filler image">
+                <div class="dailyforecastimagewrapper">
+                    <div class="dailyforecastimage">Image</div>
+                    <div class="dailyforecastimage">Image</div>
+                    <div class="dailyforecastimage">Image</div>
+                    <div class="dailyforecastimage">Image</div>
+                    <div class="dailyforecastimage">Image</div>
                 </div>
+            </div>
             </section>
-            <section class="article">
+            <div class="articlewrapper">
                 <h3>Article Title</h3>
-                <img src="images/iconfinder_drugs_injection-35px.png" alt="filler">
+               <div class="articleimagewrapper">Article Image</div>
                 <p> We bring you the latest and greatest local weather, news, and
                     sometimes a little extra. If you are getting rained or snowed on, you
                     can bet your bottom dollar we are too! We bring you the latest and greatest local weather, news, and
@@ -65,27 +71,24 @@
                     can bet your bottom dollar we are too!ometimes a little extra. If you are getting rained or snowed on, you
                     can bet your bottom dollar we are too! We bring you the latest and greatest local weather, news, and
                     sometimes a little extra. If you are ge</p>
-            </section>
-            <section class="contact">
+            </div>
+            <div class="contactwrapper">
                 <div class="contactcard">
                     <h3>Contact Information</h3>           
-                    <ul class="contactlinks">
-                        <li><a href="#">Address</a></li>
-                        <li><a href="#">Phone Number</a></li>
-                        <li><a href="#">3mail@3mail.com</a></li>
-                    </ul>
+                    <div class="contacts">
+                        <p><a href="#">Address</a></p>
+                        <p><a href="#">Phone Number</a></p>
+                        <p><a href="#">3mail@3mail.com</a></p>
+                    </div>
                     <div class="socialmedialinks">
-                        <a href="www.facebook.com"><img src="images/iconfinder_drugs_injection-35px.png" alt="filler"></a>
-                        <a href="www.twitter.com"><img src="images/iconfinder_drugs_injection-35px.png" alt="filler"></a>
-                        <a href="www.linkedin.com"><img src="images/iconfinder_drugs_injection-35px.png" alt="filler"></a>
+                        <a href="www.facebook.com">Facebook</a>
+                        <a href="www.twitter.com">Twitter</a>
+                        <a href="www.linkedin.com">LinkedIn</a>
                     </div>
                 </div>
-                <img class="contactimg" src="images/iconfinder_drugs_injection-35px.png" alt="filler">
-                
-                    
-                
-
-            </section>
+                <div class="locationmapwrapper">Location Map</div>
+                </div>
+            </div>
         </article>
     </main>
     <footer>
