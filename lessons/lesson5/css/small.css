@@ -53,12 +53,10 @@ nav ul.hide {
     display: block; 
     background-color: lightgray;
     box-shadow: 0 0 30px #777;
-    border: 1px dashed red;
   }
-
   .titlewrapper {
     position: flex;
-    width: 100%px;
+    width: 100%;
     height: 100%;
     margin-left: .75rem;
   }
@@ -73,15 +71,14 @@ nav ul.hide {
   .titlewrapper h1 {
     font-size: 1.75rem;
     margin-top: -2.5rem;
-    margin-left: 4rem;
+    margin-left: 7rem;
   }
   .titlewrapper h2 {  
     font-size: 1rem;
     margin-top: -1rem;
-    margin-left: 2.75rem;
+    margin-left: 5.5rem;
   }
-  
-  /* header - END */
+ /* header - END */
 /**** body ****************************/
 
 /** article.children - display grid BEGIN **/
@@ -91,30 +88,19 @@ nav ul.hide {
     article h2 {
       color: #ff3232;
       text-align: center;
-      
     }
     article h3 {
       font-size: .85rem;
-    }
-    article .heroimagewrapper {
-      
-    }
-    article .dailyforecastwrapper {
-       
     }
     article .articlewrapper {
       background-color: blueviolet;
     }
     article .contactwrapper {
       background-color: yellow;
-      
     }
 /** article.children - display grid END **/
 /***article.children.grandchildren BEGIN ***/
       /***--------------- weathersummary BEGIN ----------------- */
-            .heroimagewrapper {
-
-            }
             .heroimage {
               background-color: #eee;
               border: 1px solid #333;
@@ -125,13 +111,10 @@ nav ul.hide {
               background: radial-gradient(green, cyan);
               border: 1px solid green;
               box-shadow: 0 0 30px #777;
-              text-align: center;
+              padding-left: 1rem;
             }
       /***--------------- weathersummary END ----------------- */
       /***--------------- forecast BEGIN ----------------- */
-            .dailyforecastwrapper {
-              border: 1px dashed orangered;
-            }           
             .dailyforecastwrapper h3{
               text-align: center;
             }
@@ -149,44 +132,35 @@ nav ul.hide {
               box-shadow: 0 0 30px #777;
               margin-left: 1.15rem;
               margin-right: .15rem;
-
             }
-            
       /***--------------- forecast END ----------------- */
       /***--------------- article BEGIN ----------------- */
-            
-            .articlewrapper {
-              border: 1px dashed yellow;
-            }
             .articlewrapper h3 {
-              padding-left: 1rem;
-              padding-top: 0.5rem;
+              padding-left: 0.5rem;
+              padding-top: 0.25rem;
             }
-
             .articlewrapper p {
-              padding-left: 2rem;
-              padding-right: 2rem;
-              padding-bottom: 1rem;
+              padding-left: 1rem;
+              padding-right: 1rem;
+              padding-bottom: 1.5rem;
             }
-
             .articleimagewrapper {
-              width: 200px;
+              width: 85%;
               height: 150px;
               border: 1px solid black;
               background-color: white;
-              float: right;
-              margin-right: 2.5rem;
               box-shadow: 0 0 30px #777;
+              margin-left: 1.5rem;
             }
             .articleimagewrapper img{
               box-shadow: 0 0 30px #777;
             }
-
       /***--------------- article END ----------------- */
       /***--------------- contact BEGIN ----------------- */
             .contactwrapper {
-              display: relative;
-              border: 1px dashed blue;
+              display: relative;  
+              padding-top: 0.25rem;
+              padding-bottom: 1rem;
             }
 
             .contactcard {
@@ -194,11 +168,12 @@ nav ul.hide {
               border: 1px solid black;
               width: 275px;
               height: 150px;
-              background-color: white;
-              float: right;
-              margin-top: 1rem;
-              margin-right: 8rem;
+              background-color: white;             
               box-shadow: 0 0 30px #777;
+              margin-left: 4.5rem;
+              margin-top: 1rem;
+              
+              
             }
             .contacts {
               display: block;
@@ -226,6 +201,7 @@ nav ul.hide {
             .contacts p {
               margin: -0.75rem;
               padding-bottom: 1rem;
+              padding-left: 1rem;
             }
             .locationmapwrapper {
               background-color: white;
@@ -233,19 +209,17 @@ nav ul.hide {
               width: 350px;
               height: 150px;
               margin-top: 1rem;
-              margin-left: 7rem;
-              box-shadow: 0 0 30px #777;
+              margin-left: 2.5rem;
+
             }
-
-
-
       /***--------------- .contact END ----------------- */ 
 /*** article.children.grandchildren END ***/
 /**** FOOTER - display grid BEGIN ****/
 footer {
   color: white;
-  padding-left: 4rem;
+  padding-left: 3.75rem;
   background-color: black;
+  margin-top: -1rem;
   border-radius: 0px 0px 25px 25px;
 }
 /* FOOTER - display grid END */
