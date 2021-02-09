@@ -5,6 +5,9 @@
       padding: 0.6rem 2rem;
     }
       /* NAV - END */
+body {
+  max-width: 64rem;
+}
 
   }
 
