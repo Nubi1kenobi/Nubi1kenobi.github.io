@@ -166,7 +166,6 @@ nav ul.hide {
               padding-top: 0.25rem;
               padding-bottom: 1rem;
             }
-
             .contactcard {
               display: relative;
               border: 1px solid black;
@@ -176,8 +175,6 @@ nav ul.hide {
               box-shadow: 0 0 30px #777;
               margin-left: 4.5rem;
               margin-top: 1rem;
-              
-              
             }
             .contacts {
               display: block;
@@ -192,12 +189,10 @@ nav ul.hide {
               padding-right: 2rem;
               padding-bottom: 0.5rem;
             }
-
             .socialmedialinks a {
             padding-left: 0.1rem;
             padding-right: 0.1rem;
             }
-
             .contactcard h3 {
               text-align: center;
               padding-bottom: 0.5rem;
@@ -214,7 +209,6 @@ nav ul.hide {
               height: 150px;
               margin-top: 1rem;
               margin-left: 2.5rem;
-
             }
       /***--------------- .contact END ----------------- */ 
 /*** article.children.grandchildren END ***/
