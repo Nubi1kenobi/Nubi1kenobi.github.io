@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Excercise</title>
+</head>
+<body>
+     
+     
+<!-- 
+    <div>
+        <img scrset="images/covid19-480w.jpg, 480w,
+                    images/covid19-800w.jpg, 800w"
+            sizes="(max-width: 600px) 480px, 800px"
+        src="images/covid19-800w.jpg" alt="Wide Covid-19 image, using Resolution Switching - does nto work">    
+    </div>
+
+
+    <div>
+        <a href="https://www.multistate.us/issues/covid-19-policy-tracker" target="_blank">
+            <picture>
+                <source media="(max-width: 799px)" srcset="images/covid19-480w.jpg">
+                <source media="(min-width: 800px)" srcset="images/covid19-800w.jpg">
+                <img src="images/covid19-800w.jpg" alt="Wide Covid-19 image, using Art Direction.">    
+            </picture>
+        </a>
+    </div>
+
+    <div>
+        <a href="https://www.multistate.us/issues/covid-19-policy-tracker" target="_blank">
+            <picture>
+                <source media="(max-width: 1023px)" srcset="images/covid19-800w.jpg">
+                <source media="(min-width: 1024px)" srcset="images/covid19-1200w.jpg">
+                <img src="images/covid19-800w.jpg" alt="Wide Covid-19 image, using Art Direction.">    
+            </picture>
+        </a>
+    </div>
+    
+    <div>
+        <a href="https://www.multistate.us/issues/covid-19-policy-tracker" target="_blank">
+            <picture>
+                <source media="(min-width: 600px)" srcset="images/covid19-800w.jpg">
+                <source media="(min-width: 800px)" srcset="images/covid19-1200w.jpg">
+                <img src="images/covid19-1200w.jpg" alt="Wide Covid-19 image, using Art Direction.">    
+            </picture>
+        </a>
+    </div>
+-->
+
+    <div>
+        <a href="https://www.multistate.us/issues/covid-19-policy-tracker" target="_blank">
+            <picture>
+                <source srcset="images/covid19-800w.jpg" source media="(min-width: 500px) and (max-width:799px">
+                <source srcset="images/covid19-1200w.jpg" source media="(min-width: 800px)">
+                <img src="images/covid19-480w.jpg" alt="Wide Covid-19 image, using Art Direction.">    
+            </picture>
+        </a>
+    </div>
+
+    <div>
+        <a href="https://www.multistate.us/issues/covid-19-policy-tracker" target="_blank">
+            <picture>
+                <source srcset="images/covid19-800w.jpg" source media="(min-width: 32.5em) and (max-width:64.9em">
+                <source srcset="images/covid19-1200w.jpg" source media="(min-width: 65em)">
+                <img src="images/covid19-480w.jpg" alt="Wide Covid-19 image, using Art Direction.">    
+            </picture>
+        </a>
+    </div>
+
+<!--
+    <div>
+        <a href="https://www.multistate.us/issues/covid-19-policy-tracker" target="_blank">
+            <img src="images/covid19-480w.jpg" alt="Wide Covid-19 image.">    
+        </a>
+    </div>
+
+    <div>
+        <a href="https://www.multistate.us/issues/covid-19-policy-tracker" target="_blank">
+            <img src="images/covid19-800w.jpg" alt="Wide Covid-19 image.">    
+        </a>
+    </div>
+
+    <a href="https://www.multistate.us/issues/covid-19-policy-tracker" target="_blank">
+        <img src="images/covid19-1200w.jpg" alt="Wide Covid-19 image.">    
+    </a>
+-->
+</body>
+</html>
