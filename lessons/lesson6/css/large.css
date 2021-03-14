@@ -1,0 +1,13 @@
+  /* 64em is alo 1028px when basefont is 16px */
+  @media only screen and (min-width: 64em) {
+      /* NAV - BEGIN */
+    nav ul li a {
+      padding: 0.6rem 2rem;
+    }
+      /* NAV - END */
+body {
+  max-width: 64rem;
+}
+
+  }
+

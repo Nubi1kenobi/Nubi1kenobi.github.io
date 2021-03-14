@@ -1,0 +1,231 @@
+:root {
+  --navBkgnd: #aa0000;
+  --navButton: #ffffff;
+  --navActiveText: #ffffff;
+  --navGradLeft: #ff3232 0%;
+  --navGradRight: #aa0000 100%;
+}
+h1, h2, h3 {
+  font-family: "Yatra One", cursive;
+}
+
+/* applies a natural box layout model to all elements */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* NAV - Begin */
+nav {
+  box-shadow: 0 0 30px #777;
+}
+nav button {
+  margin: 0.2rem 0.5%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: var(--navButton);
+}
+nav {
+  background-color: var(--navBkgnd);
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li a {
+  display: block;
+  padding: 0.8rem 0.5%;
+  text-decoration: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.8);
+}
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: var(--navActiveText);
+}
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+nav ul.hide {
+  display: none;
+}
+/* NAV - END */
+/* header - BEGIN */
+  header { 
+    display: block; 
+    background-color: lightgray;
+    box-shadow: 0 0 30px #777;
+  }
+  .titlewrapper {
+    position: flex;
+    width: 100%;
+    height: 100%;
+    margin-left: .75rem;
+  }
+  .titlewrapper img { 
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    box-shadow: 0 0 30px #777;
+    margin-top: 0.15rem;
+    margin-left: 0.15rem;
+  }
+  .titlewrapper h1 {
+    font-size: 1.75rem;
+    margin-top: -2.5rem;
+    margin-left: 7rem;
+  }
+  .titlewrapper h2 {  
+    font-size: 1rem;
+    margin-top: -1rem;
+    margin-left: 5.5rem;
+  }
+ /* header - END */
+/**** body ****************************/
+
+/** article.children - display grid BEGIN **/
+    article {
+      display: block;   
+    }
+    article h2 {
+      color: #ff3232;
+      text-align: center;
+    }
+    article h3 {
+      font-size: .85rem;
+    }
+    article .articlewrapper {
+      background-color: blueviolet;
+    }
+    article .contactwrapper {
+      background-color: yellow;
+    }
+/** article.children - display grid END **/
+/***article.children.grandchildren BEGIN ***/
+      /***--------------- weathersummary BEGIN ----------------- */
+            .heroimage {
+              background-color: #eee;
+              border: 1px solid #333;
+              width: 100%; 
+              height: 200px;
+            }
+            .weathersummaryoverlay {
+              background: radial-gradient(green, cyan);
+              border: 1px solid green;
+              box-shadow: 0 0 30px #777;
+              padding-left: 1rem;
+            }
+      /***--------------- weathersummary END ----------------- */
+      /***--------------- forecast BEGIN ----------------- */
+            .dailyforecastwrapper h3{
+              text-align: center;
+            }
+            .dailyforecastimagewrapper {
+              background: lightgray;
+              border: 1px solid gray;
+              padding: 0.25rem;
+              height: 100%;
+
+            } 
+            .dailyforecastimage {
+              display: inline;
+              border: 1px solid black;
+              background-color: white;
+              box-shadow: 0 0 30px #777;
+              margin-left: 2.25rem;
+              margin-right: .15rem;
+            }
+      /***--------------- forecast END ----------------- */
+      /***--------------- article BEGIN ----------------- */
+            .articlewrapper h3 {
+              padding-left: 0.5rem;
+              padding-top: 0.25rem;
+            }
+            .articlewrapper p {
+              padding-left: 1rem;
+              padding-right: 1rem;
+              padding-bottom: 1.5rem;
+            }
+            .articleimagewrapper {
+              width: 85%;
+              height: 150px;
+              border: 1px solid black;
+              background-color: white;
+              box-shadow: 0 0 30px #777;
+              margin-left: 1.5rem;
+            }
+            .articleimagewrapper img{
+              box-shadow: 0 0 30px #777;
+            }
+      /***--------------- article END ----------------- */
+      /***--------------- contact BEGIN ----------------- */
+            .contactwrapper {
+              display: relative;  
+              padding-top: 0.25rem;
+              padding-bottom: 1rem;
+            }
+            .contactcard {
+              display: relative;
+              border: 1px solid black;
+              width: 275px;
+              height: 150px;
+              background-color: white;             
+              box-shadow: 0 0 30px #777;
+              margin-left: 4.5rem;
+              margin-top: 1rem;
+            }
+            .contacts {
+              display: block;
+              text-align: left;
+              padding-left: 2.5rem;
+              margin-top: 0.5rem;
+            }
+            .socialmedialinks {
+              margin-top: 0.5rem;
+              text-align: left;
+              padding-left: 2rem;
+              padding-right: 2rem;
+              padding-bottom: 0.5rem;
+            }
+            .socialmedialinks a {
+            padding-left: 0.1rem;
+            padding-right: 0.1rem;
+            }
+            .contactcard h3 {
+              text-align: center;
+              padding-bottom: 0.5rem;
+            }
+            .contacts p {
+              margin: -0.75rem;
+              padding-bottom: 1rem;
+              padding-left: 1rem;
+            }
+            .locationmapwrapper {
+              background-color: white;
+              border: 1px solid black;
+              width: 350px;
+              height: 150px;
+              margin-top: 1rem;
+              margin-left: 2.5rem;
+            }
+      /***--------------- .contact END ----------------- */ 
+/*** article.children.grandchildren END ***/
+/**** FOOTER - display grid BEGIN ****/
+footer {
+  color: black;
+  padding-left: 3.75rem;
+  background-color: red;
+  padding-top: .5rem;
+  border-radius: 0px 0px 25px 25px;
+  height: 35px;
+  text-align: center;
+}
+/* FOOTER - display grid END */
+/*****---- Clearfix: Force and Element not to collapse ----*****/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
