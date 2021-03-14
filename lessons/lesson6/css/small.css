@@ -167,7 +167,6 @@ nav ul.hide {
               padding-bottom: 1rem;
             }
             .contactcard {
-              display: relative;
               border: 1px solid black;
               width: 275px;
               height: 150px;
@@ -214,12 +213,11 @@ nav ul.hide {
 /*** article.children.grandchildren END ***/
 /**** FOOTER - display grid BEGIN ****/
 footer {
-  color: black;
+  color: white;
   padding-left: 3.75rem;
-  background-color: red;
+  background-color: grey;
   padding-top: .5rem;
-  border-radius: 0px 0px 25px 25px;
-  height: 35px;
+  height: 70px;
   text-align: center;
 }
 /* FOOTER - display grid END */

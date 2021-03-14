@@ -1,4 +1,4 @@
 const options = { year: "numeric" };
 document.getElementById(
-  "currentdate"
+  "currentyear"
 ).textContent = new Date().toLocaleDateString("en-US", options);
