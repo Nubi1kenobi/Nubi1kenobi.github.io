@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preston Home Page</title>
+    <!-- <body onload="theBanner()"></body> -->
     <link rel="shortcut icon" href="favicon.ico">
-    <link
+</link>
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
   />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
     href="https://fonts.googleapis.com/css2?family=Lalezar&family=Yatra+One&display=swap"
     rel="stylesheet"/>
     <link rel="stylesheet" href="css/small.css" />
@@ -21,7 +22,7 @@
 
 <body>
     <header>
-            <div style="height: 50px; line-height: 50px; background: orange; text-align: center" id="banner">
+            <div style="height: 50px; line-height: 50px; background: orange; text-align: center" id="banner" class="show">
                 Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
             </div>
         <div class="titlewrapper">
@@ -45,7 +46,7 @@
         <article>
             <h2>Preston Idaho</h2>
             <div class="heroimagewrapper">
-                <div class="heroimage">Hero Image</div>
+                <div class="heroimage"><img src="images/snow.webp" alt="snow"></div>
                 <section class="weathersummaryoverlay">
                     <h3>Weather Summary</h3>
                     <p>Label: Value</p>
@@ -56,18 +57,25 @@
             </div>
             <div  class="dailyforecastwrapper">
                 <h3>Five Day Forecast</h3>
+                <div class="dailyforecasttxtwrapper">
+                    <div class="dailyforecasttext">Day 1</div>
+                    <div class="dailyforecasttext">Day 2</div>
+                    <div class="dailyforecasttext">Day 3</div>
+                    <div class="dailyforecasttext">Day 4</div>
+                    <div class="dailyforecasttext">Day 5</div>
+                </div>
                 <div class="dailyforecastimagewrapper">
-                    <div class="dailyforecastimage">Image</div>
-                    <div class="dailyforecastimage">Image</div>
-                    <div class="dailyforecastimage">Image</div>
-                    <div class="dailyforecastimage">Image</div>
-                    <div class="dailyforecastimage">Image</div>
+                    <div class="dailyforecastimage"><img src="images/snow2.webp" alt="forecast snow"></div>
+                    <div class="dailyforecastimage"><img src="images/thunderstorms.webp" alt="forecast thunderstorms"></div>
+                    <div class="dailyforecastimage"><img src="images/rain.webp" alt="forecast rain"></div>
+                    <div class="dailyforecastimage"><img src="images/somesunsomeclouds.webp" alt="forecast some sun and some clouds"></div>
+                    <div class="dailyforecastimage"><img src="images/sunny.webp" alt="forecast sunny"></div>
                 </div>
             </div>
             </section>
             <div class="articlewrapper">
-                <h3>Article Title</h3>
-               <div class="articleimagewrapper">Article Image</div>
+                <h3>Lorem Ipsum</h3>
+               <div class="articleimagewrapper"><img src="images/gundam.webp" alt="gundam"></div>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget pulvinar nisi, sed convallis diam. Proin consectetur metus tortor, eu facilisis est maximus a. Nulla laoreet lacinia dui interdum aliquet. Duis cursus accumsan velit, ac dapibus magna euismod id. Aenean ultricies lectus sit amet blandit accumsan. Phasellus gravida elit et orci fringilla, ut aliquam leo facilisis. Vivamus erat augue, scelerisque non rhoncus id, elementum eget nulla. Proin non dolor sit amet sem pretium sagittis et vitae risus.
                     Proin turpis enim, vulputate a elementum at, dapibus a velit. Aenean sollicitudin ut purus non efficitur. Quisque a ullamcorper mi. Phasellus vitae sapien ac elit dictum malesuada. Suspendisse accumsan metus id sapien lacinia lobortis. Sed non molestie risus. Morbi viverra vestibulum lorem, a finibus turpis fermentum at. Pellentesque porttitor diam sapien. Aliquam pulvinar neque elit, in fringilla est posuere ornare. Cras at ultricies turpis. Donec maximus est et sagittis vulputate. Nullam ut erat vitae erat dapibus condimentum in ac massa. Ut ac lacinia enim. Nulla sapien lectus, porttitor quis fermentum id, finibus vel dolor. Duis fringilla euismod nunc ac venenatis. Pellentesque non lacinia urna.</p>
             </div>
