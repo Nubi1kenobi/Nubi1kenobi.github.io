@@ -15,6 +15,22 @@ h1, h2, h3 {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+/* Banner */
+
+.show {
+  display: block;
+  height: 50px;
+  line-height: 50px; 
+  background: orange; 
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
+.hide {
+  display: none;
+}
+
 /* NAV - Begin */
 nav {
   box-shadow: 0 0 30px #777;
@@ -63,6 +79,7 @@ nav ul.hide {
     width: 100%;
     height: 100%;
     margin-left: .75rem;
+    padding-top: 1rem;
   }
   .titlewrapper img { 
     width: 35px;
@@ -111,32 +128,72 @@ nav ul.hide {
               width: 100%; 
               height: 200px;
             }
+
+            .heroimagewrapper h3 {
+              font-size: 1.15rem;;
+            }
+
+
+
             .weathersummaryoverlay {
               background: radial-gradient(green, cyan);
               border: 1px solid green;
               box-shadow: 0 0 30px #777;
+              opacity: 75%;
+              width: 200px;
+              height: 180px;
+              margin-left: 2rem;
+              margin-top:  -11rem;
               padding-left: 1rem;
+              font-size: 1.15rem;
             }
       /***--------------- weathersummary END ----------------- */
       /***--------------- forecast BEGIN ----------------- */
+        
+            .dailyforecastimagewrapper {
+              background: lightgray;
+              padding: 0.25rem;
+              height: 60px;
+            }
+            
             .dailyforecastwrapper h3{
               text-align: center;
             }
-            .dailyforecastimagewrapper {
-              background: lightgray;
-              border: 1px solid gray;
-              padding: 0.25rem;
-              height: 100%;
 
-            } 
-            .dailyforecastimage {
-              display: inline;
-              border: 1px solid black;
-              background-color: white;
-              box-shadow: 0 0 30px #777;
-              margin-left: 2.25rem;
-              margin-right: .15rem;
+            .dailyforecasttxtwrapper {
+              display: flex;
+              height: 20px;
+              width: 100%;
+              justify-content: space-around;
+              background-color: lightgray;
             }
+
+            .dailyforecasttext {
+              font-weight: bold;
+              margin-left: 0.15rem;
+            }
+
+            .dailyforecastimagewrapper {
+              display: flex;
+              height: 60px;
+              width: 100%;
+              padding-top: 1rem;
+            }
+
+            .dailyforecastimage {
+              height: 20px;
+              width: 20%;
+            }
+    
+            
+            .dailyforecastimage img {
+              width: 55%;
+              border: 1px solid gray;
+              box-shadow: 0 0 30px #777;
+              margin-top: -.85rem;
+              margin-left: 1.40rem;
+            }
+            
       /***--------------- forecast END ----------------- */
       /***--------------- article BEGIN ----------------- */
             .articlewrapper h3 {
@@ -151,12 +208,12 @@ nav ul.hide {
             .articleimagewrapper {
               width: 85%;
               height: 150px;
-              border: 1px solid black;
-              background-color: white;
-              box-shadow: 0 0 30px #777;
-              margin-left: 1.5rem;
+              background-color: blueviolet;
+              
             }
             .articleimagewrapper img{
+              margin-left: 4rem; 
+              border: 1px solid black;
               box-shadow: 0 0 30px #777;
             }
       /***--------------- article END ----------------- */
@@ -217,7 +274,7 @@ footer {
   padding-left: 3.75rem;
   background-color: grey;
   padding-top: .5rem;
-  height: 70px;
+  height: 85px;
   text-align: center;
 }
 /* FOOTER - display grid END */
