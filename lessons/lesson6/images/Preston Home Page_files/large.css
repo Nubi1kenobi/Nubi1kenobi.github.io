@@ -9,14 +9,5 @@ body {
   max-width: 64rem;
 }
 
-        /***--------------- weathersummary BEGIN ----------------- */
-      
-        .weathersummaryoverlay {
-          position: absolute;
-          top: 32rem;
-          left: 45.5rem;
-          
-        }
-
   }
 

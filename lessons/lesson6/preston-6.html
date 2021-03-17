@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/large.css" />
 </head>
 
-<body onload="theBanner()">
+<body onload="theBanner(); windChill();">
     <header>
         <div id="banner">
             Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
@@ -42,16 +42,23 @@
     </nav>
     <main>
         <article>
-            <h2>Preston Idaho</h2>
+            <h2>Preston Idaho</h2>          
             <div class="heroimagewrapper">
-                <div class="heroimage"><img src="./images/snow.webp" alt="snow"></div>
+                    <picture class="heroimage">
+                        <source srcset="./images/wdd230_image_franklinOriginal650.webp" source media="(min-width: 32.5em) and (max-width:64.9em">
+                        <source srcset="./images/wdd230_image_franklinOriginal1000.webp" source media="(min-width: 65em)">
+                        <img src="./images/wdd230_image_franklinOriginal480.webp" alt="Wide Covid-19 image, using Art Direction.">    
+                    </picture>
+                </a>
+            </div>
+            
                 <section class="weathersummaryoverlay">
                     <h3><b>Weather Summary</b></h3>
                     <b>Currenlty:</b> Snowing</br>
-                    <b>High:</b> 16°F</br>
-                    <b>Wind Chill:</b> 0°F</br>
+                    <b>High:</b> <span id="temp">28</span>°F</br>
+                    <b>Wind Chill:</b> <span id="windchill"></span> </br>
                     <b>Humidity:</b> 100% rH</br>
-                    <b>Wind Speed:</b> 20 mph</br>
+                    <b>Wind Speed:</b> <span id="speed">20</span> mph</br>
                 </section>
             </div>
             <div class="dailyforecastwrapper">
@@ -131,5 +138,6 @@
     <script src="./js/lastupdated.js"></script>
     <script src="./js/scripts.js"></script>
     <script src="./js/currentyear.js"></script>
+    <script src="./js/windchill.js"></script>
 </body>
 </html>
