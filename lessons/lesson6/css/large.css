@@ -10,11 +10,17 @@ body {
 }
 
         /***--------------- weathersummary BEGIN ----------------- */
-      
+        .weathersummaryoverlay h3 {
+          font-size: 1.5rem;
+        }
         .weathersummaryoverlay {
           position: absolute;
-          top: 32rem;
-          left: 45.5rem;
+          top: 29rem;
+          left: 42rem;
+          font-size: 1.45rem;
+          height: 200px;
+          width: 250px;
+          
           
         }
 

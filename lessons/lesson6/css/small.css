@@ -137,22 +137,22 @@ nav ul.hide {
   }
   
   .weathersummaryoverlay h3 {
-    font-size: 1.25rem;
+    font-size: .95rem;
   }
 
    .weathersummaryoverlay {
     position: relative;
-    top: -14.5rem;
-    left: 17rem;
+    top: -10.25rem;
+    left: 1rem;
     background: radial-gradient(green, cyan);
     border: 1px solid green;
     box-shadow: 0 0 30px darkgreen;
     border-radius: 12px 12px 12px 12px;    
     opacity: 75%;
-    width: 210px;;
-    height: 175px;
+    height: 135px;
+    width: 175px;;
     padding-left: 0.5rem;
-    font-size: 1.15rem;
+    font-size: .85rem;
   }
       /***--------------- weathersummary END ----------------- */
       /***--------------- forecast BEGIN ----------------- */
